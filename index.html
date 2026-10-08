@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <title>VIBESNAKE</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+    canvas { position: fixed; left: 0; top: 0; display: block; }
+    #ui { pointer-events: none; }
+    body.playing { cursor: none; }
+    body.playing.aiming { cursor: crosshair; }
+  </style>
+</head>
+<body>
+  <canvas id="gl"></canvas>
+  <canvas id="ui"></canvas>
+  <script src="audio.js"></script>
+  <script src="tracks.js"></script>
+  <script src="gfx.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

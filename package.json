@@ -1,0 +1,13 @@
+{
+  "name": "vibesnake",
+  "version": "1.0.0",
+  "description": "Maximally psychedelic snake",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^44.5.1"
+  }
+}
